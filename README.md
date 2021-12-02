@@ -18,7 +18,7 @@ $ flask run
 
 ### Flask debug mode in one line command
 ```bash
-$ FLASK_APP=main.py FLASK_ENV=development flask run
-$ FLASK_APP=main.py FLASK_ENV=development flask run --port 8080
+$ FLASK_APP=app.py FLASK_ENV=development flask run
+$ FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
 $ flask run --help
 ```
